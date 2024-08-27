@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    /* width: 100%; */
+    background-image: url(green-stethoscope-medical-instrument-icon-isolated-seamless-pattern-on-white-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+section{
+    height:100vh;
+    padding: 2rem 7%;
+}
+
+.port .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dot h1 {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.action{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+.action:hover{
+    border: none;
+    background-color: white;
+    /* background-color: rgb(39, 39, 224); */
+    color:black;
+    
+}
+
+.box {
+    font-size: 48px;
+    color: rgb(39, 39, 224);
+    border: 1px solid rgb(39, 39, 224);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.box:hover {
+    border: none;
+    background-color: rgb(39, 39, 224);
+    color: #ffff;
+}
+
+/* .dit .container{
+    padding: 0;
+} */
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.por {
+    width: 220px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.por:hover {
+    background-color: rgb(56, 56, 204);
+    border: none;
+    color: #ffff;
+}
+
+.dit{
+    height: 30vh;
+}
+
+.ret {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    background-color: #ffff;
+    color: black;
+    width: 35px;
+    font-size: 30px;
+    height: 35px;
+    border-radius: 50%;
+    align-items: center;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+}
+.icon:hover {
+    background-color: rgb(39, 39, 224);
+}
+
+.doc {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.doc #icon {
+    margin-left: 18px;
+    margin-top: 16px;
+}
+
+.love .container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pics {
+    height: 500px;
+    width: 500px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.code {
+    font-size: xx-large;
+}
+
+.pot {
+    background-color: #ffff;
+    color: black;
+    height: 80px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.pot:hover {
+    background-color: rgb(56, 56, 204);
+    color: #ffff;
+}
+
+.pit .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.toe h1 {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.you {
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.sow {
+    font-size: 48px;
+    color: rgb(39, 39, 224);
+    border: 1px solid rgb(39, 39, 224);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.dip .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nion{
+
+}
+.nion .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.dion {
+    /* text-align: center; */
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lion {
+    width: 100%;
+    height: 200px;
+}
+
+.services-text h1 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.lit {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.fig {
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.yup {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.tot{
+    color:blue ;
+}
+
+.links a{
+    display: block;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    color: #ffff;
+    background-color: black;
+    padding: 2rem 7%;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .soe{ */
+/* font-size: 48px; */
+/* color: rgb(39, 39, 224); */
+/* border: 1px solid rgb(39, 39, 224); */
+/* height: 50px; */
+/* width: 50px; */
+/* border-radius: 50%;  */
+/* } */
